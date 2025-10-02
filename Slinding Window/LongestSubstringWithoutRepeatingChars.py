@@ -6,6 +6,8 @@ class Solution:
     def lengthOfLongestSubstring(self, s):
         left = 0
         right = 0
+        if len(s) == 0:
+            return 0
         substring = str(s[0])
         lengthOfLongestSubstring = 1
 
